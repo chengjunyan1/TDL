@@ -1,0 +1,10 @@
+torch
+pytorch_metric_learning
+numpy
+scipy
+cv2
+open3d
+pytorch_lightning
+wandb
+pytorch_lightning
+einops
