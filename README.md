@@ -27,13 +27,14 @@ Download from this anonymous link: https://drive.google.com/file/d/15S1RsDy_5MdN
 
 ## Structure
 Here we detail the repo's structure:
-* The [datasets](https://github.com/TDL/datasets) contains the codes for loading and processing the datasets.
-* The [TAE.py](https://github.com/TDL/TAE.py) is the implementation of model
-* The [SDE.py](https://github.com/TDL/SDE.py) is the implementation of the diffusion model
-* The [attention.py](https://github.com/TDL/attention.py) is the implementation of the attention layers
-* The [sampler.py](https://github.com/TDL/sampler.py) is a larger diffusion model based on DDPM
-* The [pltrain.py](https://github.com/TDL/pltrain.py) is a basic training script using pytorch lightning
+* The [datasets](https://github.com/chengjunyan1/TDL/tree/main/datasets) contains the codes for loading and processing the datasets.
+* The [TAE.py](https://github.com/chengjunyan1/TDL/blob/main/TAE.py) is the implementation of model
+* The [SDE.py](https://github.com/chengjunyan1/TDL/blob/main/SDE.py) is the implementation of the diffusion model
+* The [attention.py](https://github.com/chengjunyan1/TDL/blob/main/attention.py) is the implementation of the attention layers
+* The [sampler.py](https://github.com/chengjunyan1/TDL/blob/main/sampler.py) is a larger diffusion model based on DDPM
+* The [pltrain.py](https://github.com/chengjunyan1/TDL/blob/main/pltrain.py) is a basic training script using pytorch lightning
 * All files wil 3D are the 3D version of the file for handling 3D voxels.
+
 
 
 ## Citation
