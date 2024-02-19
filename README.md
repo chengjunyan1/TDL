@@ -1,8 +1,8 @@
-## Bridging Neural and Symbolic Representations with Transitional Dictionary Learning
+# Bridging Neural and Symbolic Representations with Transitional Dictionary Learning
 
  
 
-# Installation
+## Installation
 
 1. First clone the directory. 
 
@@ -18,14 +18,14 @@ Create a new environment using [conda](https://docs.conda.io/en/latest/miniconda
 pip install -r requirements.txt
 ```
 
-# Dataset
+## Dataset
 The dataset files for LineWorld and LW-G can be generated using the BabyARC engine with the `datasets/BabyARC` submodule, the OmniGlot dataset found [here](https://github.com/brendenlake/omniglot), and ShapeNet can be downloaded [here](https://shapenet.org/download/shapenetcore), the code for preprocessing the datasets are under `dataset/` or directly downloaded via [this link](https://drive.google.com/file/d/15S1RsDy_5MdNq_iUsZCPsRHd9qMqdTBy/view?usp=share_link). If download from the above link, put the downloaded data under the `./datasets/files/` folder.
 
 
 Download from this anonymous link: https://drive.google.com/file/d/15S1RsDy_5MdNq_iUsZCPsRHd9qMqdTBy/view?usp=share_link 
 
 
-# Structure
+## Structure
 Here we detail the repo's structure:
 * The [datasets](https://github.com/TDL/datasets) contains the codes for loading and processing the datasets.
 * The [TAE.py](https://github.com/TDL/TAE.py) is the implementation of model
@@ -36,7 +36,7 @@ Here we detail the repo's structure:
 * All files wil 3D are the 3D version of the file for handling 3D voxels.
 
 
-# Citation
+## Citation
 If you find our work and/or our code useful, please cite us via:
 
 ```bibtex
