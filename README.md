@@ -18,7 +18,7 @@ Create a new environment using [conda](https://docs.conda.io/en/latest/miniconda
 pip install -r requirements.txt
 ```
 
-# Dataset:
+# Dataset
 The dataset files for LineWorld and LW-G can be generated using the BabyARC engine with the `datasets/BabyARC` submodule, the OmniGlot dataset found [here](https://github.com/brendenlake/omniglot), and ShapeNet can be downloaded [here](https://shapenet.org/download/shapenetcore), the code for preprocessing the datasets are under `dataset/` or directly downloaded via [this link](https://drive.google.com/file/d/15S1RsDy_5MdNq_iUsZCPsRHd9qMqdTBy/view?usp=share_link). If download from the above link, put the downloaded data under the `./datasets/files/` folder.
 
 
